@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<GUIScheme Name="EggShell">
+    <Imageset Filename="EggShell.imageset" />
+    <Font Filename="DejaVuSans-10.font" />
+    <LookNFeel Filename="EggShell.looknfeel" />
+    <WindowRendererSet Filename="CEGUIFalagardWRBase" />
+
+    <FalagardMapping WindowType="EggShell/AxisIndicator"        TargetType="DefaultWindow"          Renderer="MyWidgets/AxisIndicator"      LookNFeel="EggShell/AxisIndicator" />
+
+    <FalagardMapping WindowType="EggShell/Button"               TargetType="CEGUI/PushButton"       Renderer="Falagard/Button"              LookNFeel="EggShell/PushButton" />
+    <FalagardMapping WindowType="EggShell/Titlebar"             TargetType="CEGUI/Titlebar"         Renderer="Falagard/Titlebar"            LookNFeel="EggShell/Titlebar" />
+    <FalagardMapping WindowType="EggShell/FrameWindow"          TargetType="CEGUI/FrameWindow"      Renderer="Falagard/FrameWindow"         LookNFeel="EggShell/FrameWindow" />
+    <FalagardMapping WindowType="EggShell/Thumb"                TargetType="CEGUI/Thumb"            Renderer="Falagard/Button"              LookNFeel="EggShell/Thumb" />
+    <FalagardMapping WindowType="EggShell/VerticalScrollbar"    TargetType="CEGUI/Scrollbar"        Renderer="Falagard/Scrollbar"           LookNFeel="EggShell/VerticalScrollbar" />
+    <FalagardMapping WindowType="EggShell/HorizontalScrollbar"  TargetType="CEGUI/Scrollbar"        Renderer="Falagard/Scrollbar"           LookNFeel="EggShell/HorizontalScrollbar" />
+    <FalagardMapping WindowType="EggShell/StaticText"           TargetType="DefaultWindow"          Renderer="Falagard/StaticText"          LookNFeel="EggShell/StaticText" />
+    <FalagardMapping WindowType="EggShell/Title"                TargetType="DefaultWindow"          Renderer="Falagard/Default"             LookNFeel="EggShell/MiniTray" />
+    <FalagardMapping WindowType="EggShell/CaptionedStaticText"  TargetType="DefaultWindow"          Renderer="Falagard/StaticText"          LookNFeel="EggShell/CaptionedStaticText" />
+    <FalagardMapping WindowType="EggShell/ProgressBar"          TargetType="CEGUI/ProgressBar"      Renderer="Falagard/ProgressBar"         LookNFeel="EggShell/ProgressBar" />
+    <FalagardMapping WindowType="EggShell/Editbox"              TargetType="CEGUI/Editbox"          Renderer="Falagard/Editbox"             LookNFeel="EggShell/Editbox" />
+    <FalagardMapping WindowType="EggShell/MultiLineEditbox"     TargetType="CEGUI/MultiLineEditbox" Renderer="Falagard/MultiLineEditbox"    LookNFeel="EggShell/MultiLineEditbox" />
+    <FalagardMapping WindowType="EggShell/Listbox"              TargetType="CEGUI/Listbox"          Renderer="Falagard/Listbox"             LookNFeel="EggShell/Listbox" />
+    <FalagardMapping WindowType="EggShell/ComboDropList"        TargetType="CEGUI/ComboDropList"    Renderer="Falagard/Listbox"             LookNFeel="EggShell/Listbox" />
+    <FalagardMapping WindowType="EggShell/Combobox"             TargetType="CEGUI/Combobox"         Renderer="Falagard/Default"             LookNFeel="EggShell/Combobox" />
+    <FalagardMapping WindowType="EggShell/DropDownMenu"         TargetType="CEGUI/Combobox"         Renderer="Falagard/Default"             LookNFeel="EggShell/DropDownMenu" />
+    <FalagardMapping WindowType="EggShell/Group"                TargetType="DefaultWindow"          Renderer="Falagard/Default"             LookNFeel="EggShell/Group" />
+    <FalagardMapping WindowType="EggShell/Checkbox"             TargetType="CEGUI/Checkbox"         Renderer="Falagard/ToggleButton"        LookNFeel="EggShell/Checkbox" />
+    <FalagardMapping WindowType="EggShell/RadioButton"          TargetType="CEGUI/RadioButton"      Renderer="Falagard/ToggleButton"        LookNFeel="EggShell/RadioButton" />
+    <FalagardMapping WindowType="EggShell/Slider"               TargetType="CEGUI/Slider"           Renderer="Falagard/Slider"              LookNFeel="EggShell/Slider" />
+    <FalagardMapping WindowType="EggShell/StaticImage"          TargetType="DefaultWindow"          Renderer="Falagard/StaticImage"         LookNFeel="EggShell/StaticImage" />
+    <FalagardMapping WindowType="EggShell/AltStaticImage"       TargetType="DefaultWindow"          Renderer="Falagard/Default"             LookNFeel="EggShell/AltStaticImage" />
+    <FalagardMapping WindowType="EggShell/Tooltip"              TargetType="CEGUI/Tooltip"          Renderer="Falagard/Tooltip"             LookNFeel="EggShell/Tooltip" />
+    <FalagardMapping WindowType="EggShell/ItemListbox"          TargetType="CEGUI/ItemListbox"      Renderer="Falagard/ItemListbox"         LookNFeel="EggShell/ItemListbox" />
+    <FalagardMapping WindowType="EggShell/ListboxItem"          TargetType="CEGUI/ItemEntry"        Renderer="Falagard/ItemEntry"           LookNFeel="EggShell/ListboxItem" />
+    <FalagardMapping WindowType="EggShell/Spinner"              TargetType="CEGUI/Spinner"          Renderer="Falagard/Default"             LookNFeel="EggShell/Spinner" /> 
+    <FalagardMapping WindowType="EggShell/ScrollablePane"       TargetType="CEGUI/ScrollablePane"   Renderer="Falagard/ScrollablePane"      LookNFeel="EggShell/ScrollablePane" />  
+    <FalagardMapping WindowType="EggShell/ListHeaderSegment"    TargetType="CEGUI/ListHeaderSegment" Renderer="Falagard/ListHeaderSegment"  LookNFeel="EggShell/ListHeaderSegment" />
+    <FalagardMapping WindowType="EggShell/ListHeader"           TargetType="CEGUI/ListHeader"       Renderer="Falagard/ListHeader"          LookNFeel="EggShell/ListHeader" />
+    <FalagardMapping WindowType="EggShell/MultiColumnList"      TargetType="CEGUI/MultiColumnList"  Renderer="Falagard/MultiColumnList"     LookNFeel="EggShell/MultiColumnList" />
+    <FalagardMapping WindowType="EggShell/MenuItem"             TargetType="CEGUI/MenuItem"         Renderer="Falagard/MenuItem"            LookNFeel="EggShell/MenuItem" />
+    <FalagardMapping WindowType="EggShell/Menubar"              TargetType="CEGUI/Menubar"          Renderer="Falagard/Menubar"             LookNFeel="EggShell/Menubar" />
+    <FalagardMapping WindowType="EggShell/PopupMenu"            TargetType="CEGUI/PopupMenu"        Renderer="Falagard/PopupMenu"           LookNFeel="EggShell/PopupMenu" />
+    <FalagardMapping WindowType="EggShell/TabButton"            TargetType="CEGUI/TabButton"        Renderer="Falagard/TabButton"           LookNFeel="EggShell/TabButton" />
+    <FalagardMapping WindowType="EggShell/TabButtonPane"        TargetType="DefaultWindow"          Renderer="Falagard/Default"             LookNFeel="EggShell/TabButtonPane" />
+    <FalagardMapping WindowType="EggShell/TabContentPane"       TargetType="DefaultWindow"          Renderer="Falagard/Default"             LookNFeel="EggShell/TabContentPane" />
+    <FalagardMapping WindowType="EggShell/TabControl"           TargetType="CEGUI/TabControl"       Renderer="Falagard/TabControl"          LookNFeel="EggShell/TabControl" />
+
+    <FalagardMapping WindowType="EggShell/BG" TargetType="DefaultWindow" Renderer="Falagard/Default" LookNFeel="EggShell/BGTest" />
+</GUIScheme>

@@ -1,0 +1,11 @@
+﻿Build started 3/4/2013 10:15:34 PM.
+     1>Project "D:\dev\TestBed\ALL_BUILD.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule D:/dev/TestBed/CMakeLists.txt
+         CMake does not need to re-run because D:\dev\TestBed\CMakeFiles\generate.stamp is up-to-date.
+         Build all projects
+     1>Done Building Project "D:\dev\TestBed\ALL_BUILD.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.09

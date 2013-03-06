@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<GUILayout>
+	<Window Type="TaharezLook/FrameWindow" Name="Main">
+            <Property Name="UnifiedAreaRect" Value="{{0.0,0},{0.0,0},{1.0,0},{1.0,0}}" />
+            <Property Name="FrameEnabled" Value="false" />
+            <Property Name="TitlebarEnabled" Value="false" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+	</Window>
+</GUILayout>

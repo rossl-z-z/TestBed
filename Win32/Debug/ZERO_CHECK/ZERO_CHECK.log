@@ -1,0 +1,10 @@
+﻿Build started 3/4/2013 10:14:54 PM.
+     1>Project "D:\dev\TestBed\ZERO_CHECK.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because D:/dev/TestBed/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "D:\dev\TestBed\ZERO_CHECK.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06

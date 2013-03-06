@@ -1,0 +1,169 @@
+<?xml version="1.0" ?>
+<GUILayout>
+  <Window Type="EggShell/FrameWindow" Name="Main">
+    <Property Name="UnifiedAreaRect" Value="{{0.0,0},{0.0,0},{0,400},{0,200}}" />
+    <Property Name="FrameEnabled" Value="false" />
+    <Property Name="TitlebarEnabled" Value="false" />
+    <Property Name="CloseButtonEnabled" Value="false" />
+    <Property Name="VerticalAlignment" Value="Bottom" />
+    <Property Name="HorizontalAlignment" Value="Centre" />
+
+    <Window Type="EggShell/Button" Name="Joy1">
+      <Property Name="Text" Value="1" />
+      <Property Name="NormalImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="HoverImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="PushedImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="DisabledImage" Value="set:EggShellImages image:JoyButtonDown" />
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{0,25},{0,25}}" />
+    </Window>
+
+    <Window Type="EggShell/Button" Name="Joy2">
+      <Property Name="Text" Value="2" />
+      <Property Name="NormalImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="HoverImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="PushedImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="DisabledImage" Value="set:EggShellImages image:JoyButtonDown" />
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedAreaRect" Value="{{0,30},{0,5},{0,50},{0,25}}" />
+    </Window>
+
+    <Window Type="EggShell/Button" Name="Joy3">
+      <Property Name="Text" Value="3" />
+      <Property Name="NormalImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="HoverImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="PushedImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="DisabledImage" Value="set:EggShellImages image:JoyButtonDown" />
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedAreaRect" Value="{{0,55},{0,5},{0,75},{0,25}}" />
+    </Window>
+
+    <Window Type="EggShell/Button" Name="Joy4">
+      <Property Name="Text" Value="4" />
+      <Property Name="NormalImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="HoverImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="PushedImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="DisabledImage" Value="set:EggShellImages image:JoyButtonDown" />
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedAreaRect" Value="{{0,80},{0,5},{0,100},{0,25}}" />
+    </Window>
+
+    <Window Type="EggShell/Button" Name="Joy5">
+      <Property Name="Text" Value="5" />
+      <Property Name="NormalImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="HoverImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="PushedImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="DisabledImage" Value="set:EggShellImages image:JoyButtonDown" />
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedAreaRect" Value="{{0,105},{0,5},{0,125},{0,25}}" />
+    </Window>
+
+    <Window Type="EggShell/Button" Name="Joy6">
+      <Property Name="Text" Value="6" />
+      <Property Name="NormalImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="HoverImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="PushedImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="DisabledImage" Value="set:EggShellImages image:JoyButtonDown" />
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedAreaRect" Value="{{0,130},{0,5},{0,150},{0,25}}" />
+    </Window>
+
+    <Window Type="EggShell/Button" Name="Joy7">
+      <Property Name="Text" Value="7" />
+      <Property Name="NormalImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="HoverImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="PushedImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="DisabledImage" Value="set:EggShellImages image:JoyButtonDown" />
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedAreaRect" Value="{{0,155},{0,5},{0,175},{0,25}}" />
+    </Window>
+
+    <Window Type="EggShell/Button" Name="Joy8">
+      <Property Name="Text" Value="8" />
+      <Property Name="NormalImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="HoverImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="PushedImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="DisabledImage" Value="set:EggShellImages image:JoyButtonDown" />
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedAreaRect" Value="{{0,180},{0,5},{0,200},{0,25}}" />
+    </Window>
+
+    <Window Type="EggShell/Button" Name="Joy9">
+      <Property Name="Text" Value="9" />
+      <Property Name="NormalImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="HoverImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="PushedImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="DisabledImage" Value="set:EggShellImages image:JoyButtonDown" />
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedAreaRect" Value="{{0,205},{0,5},{0,225},{0,25}}" />
+    </Window>
+
+    <Window Type="EggShell/Button" Name="Joy10">
+      <Property Name="Text" Value="10" />
+      <Property Name="NormalImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="HoverImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="PushedImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="DisabledImage" Value="set:EggShellImages image:JoyButtonDown" />
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedAreaRect" Value="{{0,230},{0,5},{0,250},{0,25}}" />
+    </Window>
+
+    <Window Type="EggShell/Button" Name="Joy11">
+      <Property Name="Text" Value="11" />
+      <Property Name="NormalImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="HoverImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="PushedImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="DisabledImage" Value="set:EggShellImages image:JoyButtonDown" />
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedAreaRect" Value="{{0,255},{0,5},{0,275},{0,25}}" />
+    </Window>
+
+    <Window Type="EggShell/Button" Name="Joy12">
+      <Property Name="Text" Value="12" />
+      <Property Name="NormalImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="HoverImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="PushedImage" Value="set:EggShellImages image:JoyButton" />
+      <Property Name="DisabledImage" Value="set:EggShellImages image:JoyButtonDown" />
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedAreaRect" Value="{{0,280},{0,5},{0,300},{0,25}}" />
+    </Window>
+
+    <Window Type="EggShell/AxisIndicator" Name="JoyAxis1">
+      <Property Name="UnifiedPosition" Value="{{0,5},{0,30}}" />
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedSize" Value="{{0,50},{0,50}}" />
+    </Window>
+
+    <Window Type="EggShell/AxisIndicator" Name="JoyAxis2">
+      <Property Name="UnifiedPosition" Value="{{0,60},{0,30}}" />
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedSize" Value="{{0,50},{0,50}}" />
+    </Window>
+
+    <Window Type="EggShell/HatIndicator" Name="JoyHat">
+      <Property Name="UnifiedPosition" Value="{{0,140},{0,30}}" />
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedSize" Value="{{0,60},{0,60}}" />
+    </Window>
+
+    <Window Type="EggShell/Editbox" Name="KeyboardText">
+      <Property Name="Text" Value="" />
+      <Property Name="TextColours" Value="tl:FF4FF06F tr:FF4FF06F bl:FF4FF06F br:FF4FF06F" />
+      <Property Name="FrameEnabled" Value="true" />
+      <Property Name="HorzFormatting" Value="HorzCentred" />
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedAreaRect" Value="{{0,220},{0,40},{0,280},{0,70}}" />
+      <Property Name="BackgroundEnabled" Value="False" />
+    </Window>
+
+    <Window Type="EggShell/Button" Name="cmdQuit" >
+      <Property Name="Text" Value="Exit" />
+      <Property Name="InheritsAlpha" Value="False" />
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,70},{0,50}}" />
+      <Property Name="VerticalAlignment" Value="Bottom" />
+      <Property Name="HorizontalAlignment" Value="Centre" />
+    </Window>
+
+  </Window>
+</GUILayout>

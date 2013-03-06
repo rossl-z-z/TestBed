@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<GUILayout>
+  <Window Type="EggShell/FrameWindow" Name="Main">
+    <Property Name="UnifiedAreaRect" Value="{{0.0,0},{0.0,0},{1.0,0},{1.0,0}}" />
+    <Property Name="FrameEnabled" Value="false" />
+    <Property Name="TitlebarEnabled" Value="false" />
+    <Property Name="CloseButtonEnabled" Value="false" />
+
+
+  </Window>
+</GUILayout>

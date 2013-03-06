@@ -1,0 +1,24 @@
+TODO: OverALL Design layout (UML?)
+
+TODO: phys test bed... throwing objects around
+
+TODO: link input events to ORGE
+
+
+
+TODO: a console window that brings up different layouts (ie: input_test_layout)
+
++-----------------------------------+
+|                                   |
+|                                   |
+|> console command input text box   |
++-----------------------------------+
+
+
+        3d stuff via Ogre
+
+
+         +-------------+
+         |   layout    |
+|        +-------------+            |
+_____________________________________

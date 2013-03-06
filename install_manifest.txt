@@ -1,0 +1,11 @@
+D:/dev/TestBed/dist/bin/OgreMain_d.dll
+D:/dev/TestBed/dist/bin/RenderSystem_Direct3D9_d.dll
+D:/dev/TestBed/dist/bin/RenderSystem_GL_d.dll
+D:/dev/TestBed/dist/bin/libboost_date_time-vc110-mt-gd-1_52.lib
+D:/dev/TestBed/dist/bin/libboost_thread-vc110-mt-gd-1_52.lib
+D:/dev/TestBed/dist/bin/libboost_system-vc110-mt-gd-1_52.lib
+D:/dev/TestBed/dist/bin/CEGUIBase_d.dll
+D:/dev/TestBed/dist/bin/CEGUIOgreRenderer_d.dll
+D:/dev/TestBed/dist/bin/CEGUIExpatParser_d.dll
+D:/dev/TestBed/dist/bin/CEGUIFalagardWRBase_d.dll
+D:/dev/TestBed/dist/bin/Plugin_OctreeSceneManager_d.dll

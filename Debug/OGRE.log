@@ -1,0 +1,166 @@
+16:55:18: Creating resource group General
+16:55:18: Creating resource group Internal
+16:55:18: Creating resource group Autodetect
+16:55:18: SceneManagerFactory for type 'DefaultSceneManager' registered.
+16:55:18: Registering ResourceManager for type Material
+16:55:18: Registering ResourceManager for type Mesh
+16:55:18: Registering ResourceManager for type Skeleton
+16:55:18: MovableObjectFactory for type 'ParticleSystem' registered.
+16:55:18: OverlayElementFactory for type Panel registered.
+16:55:18: OverlayElementFactory for type BorderPanel registered.
+16:55:18: OverlayElementFactory for type TextArea registered.
+16:55:18: Registering ResourceManager for type Font
+16:55:18: ArchiveFactory for archive type FileSystem registered.
+16:55:18: ArchiveFactory for archive type Zip registered.
+16:55:18: ArchiveFactory for archive type EmbeddedZip registered.
+16:55:18: DDS codec registering
+16:55:18: FreeImage version: 3.15.3
+16:55:18: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+16:55:18: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,3fr,arw,bay,bmq,cap,cine,cr2,crw,cs1,dc2,dcr,drf,dsc,dng,erf,fff,ia,iiq,k25,kc2,kdc,mdc,mef,mos,mrw,nef,nrw,orf,pef,ptx,pxn,qtk,raf,raw,rdc,rw2,rwl,rwz,sr2,srf,srw,sti
+16:55:18: Registering ResourceManager for type HighLevelGpuProgram
+16:55:18: Registering ResourceManager for type Compositor
+16:55:18: MovableObjectFactory for type 'Entity' registered.
+16:55:18: MovableObjectFactory for type 'Light' registered.
+16:55:18: MovableObjectFactory for type 'BillboardSet' registered.
+16:55:18: MovableObjectFactory for type 'ManualObject' registered.
+16:55:18: MovableObjectFactory for type 'BillboardChain' registered.
+16:55:18: MovableObjectFactory for type 'RibbonTrail' registered.
+16:55:18: *-*-* OGRE Initialising
+16:55:18: *-*-* Version 1.8.1 (Byatis)
+16:55:18: Loading library RenderSystem_Direct3D9_d
+16:55:18: Installing plugin: D3D9 RenderSystem
+16:55:18: D3D9 : Direct3D9 Rendering Subsystem created.
+16:55:18: D3D9: Driver Detection Starts
+16:55:18: D3D9: Driver Detection Ends
+16:55:18: Plugin successfully installed
+16:55:18: Loading library Plugin_OctreeSceneManager_d
+16:55:18: Installing plugin: Octree Scene Manager
+16:55:18: Plugin successfully installed
+16:55:18: D3D9 : RenderSystem Option: Full Screen = No
+16:55:18: CPU Identifier & Features
+16:55:18: -------------------------
+16:55:18:  *   CPU ID: GenuineIntel: Intel(R) Core(TM) i7 CPU         930  @ 2.80GHz
+16:55:18:  *      SSE: yes
+16:55:18:  *     SSE2: yes
+16:55:18:  *     SSE3: yes
+16:55:18:  *      MMX: yes
+16:55:18:  *   MMXEXT: yes
+16:55:18:  *    3DNOW: no
+16:55:18:  * 3DNOWEXT: no
+16:55:18:  *     CMOV: yes
+16:55:18:  *      TSC: yes
+16:55:18:  *      FPU: yes
+16:55:18:  *      PRO: yes
+16:55:18:  *       HT: no
+16:55:18: -------------------------
+16:55:18: D3D9 : Subsystem Initialising
+16:55:18: Registering ResourceManager for type Texture
+16:55:18: Registering ResourceManager for type GpuProgram
+16:55:18: D3D9RenderSystem::_createRenderWindow "OGRE Render Window", 800x600 windowed  miscParams: FSAA=0 FSAAHint= colourDepth=32 gamma=false monitorIndex=0 useNVPerfHUD=false vsync=true vsyncInterval=1 
+16:55:18: D3D9 : Created D3D9 Rendering Window 'OGRE Render Window' : 800x600, 32bpp
+16:55:18: D3D9: Vertex texture format supported - PF_FLOAT16_RGB
+16:55:18: D3D9: Vertex texture format supported - PF_FLOAT16_RGBA
+16:55:18: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+16:55:18: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+16:55:18: D3D9: Vertex texture format supported - PF_FLOAT16_R
+16:55:18: D3D9: Vertex texture format supported - PF_FLOAT32_R
+16:55:18: D3D9: Vertex texture format supported - PF_FLOAT16_GR
+16:55:18: D3D9: Vertex texture format supported - PF_FLOAT32_GR
+16:55:18: RenderSystem capabilities
+16:55:18: -------------------------
+16:55:18: RenderSystem Name: Direct3D9 Rendering Subsystem
+16:55:18: GPU Vendor: nvidia
+16:55:18: Device Name: Monitor-1-NVIDIA GeForce 8600 GTS
+16:55:18: Driver Version: 9.18.13.1090
+16:55:18:  * Fixed function pipeline: yes
+16:55:18:  * Hardware generation of mipmaps: yes
+16:55:18:  * Texture blending: yes
+16:55:18:  * Anisotropic texture filtering: yes
+16:55:18:  * Dot product texture operation: yes
+16:55:18:  * Cube mapping: yes
+16:55:18:  * Hardware stencil buffer: yes
+16:55:18:    - Stencil depth: 8
+16:55:18:    - Two sided stencil support: yes
+16:55:18:    - Wrap stencil values: yes
+16:55:18:  * Hardware vertex / index buffers: yes
+16:55:18:  * Vertex programs: yes
+16:55:18:  * Number of floating-point constants for vertex programs: 256
+16:55:18:  * Number of integer constants for vertex programs: 16
+16:55:18:  * Number of boolean constants for vertex programs: 16
+16:55:18:  * Fragment programs: yes
+16:55:18:  * Number of floating-point constants for fragment programs: 224
+16:55:18:  * Number of integer constants for fragment programs: 16
+16:55:18:  * Number of boolean constants for fragment programs: 16
+16:55:18:  * Geometry programs: no
+16:55:18:  * Number of floating-point constants for geometry programs: 0
+16:55:18:  * Number of integer constants for geometry programs: 0
+16:55:18:  * Number of boolean constants for geometry programs: 0
+16:55:18:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 ps_2_a ps_2_b ps_2_x ps_3_0 vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+16:55:18:  * Texture Compression: yes
+16:55:18:    - DXT: yes
+16:55:18:    - VTC: no
+16:55:18:    - PVRTC: no
+16:55:18:  * Scissor Rectangle: yes
+16:55:18:  * Hardware Occlusion Query: yes
+16:55:18:  * User clip planes: yes
+16:55:18:  * VET_UBYTE4 vertex element type: yes
+16:55:18:  * Infinite far plane projection: yes
+16:55:18:  * Hardware render-to-texture: yes
+16:55:18:  * Floating point textures: yes
+16:55:18:  * Non-power-of-two textures: yes
+16:55:18:  * Volume textures: yes
+16:55:18:  * Multiple Render Targets: 4
+16:55:18:    - With different bit depths: yes
+16:55:18:  * Point Sprites: yes
+16:55:18:  * Extended point parameters: yes
+16:55:18:  * Max Point Size: 8192
+16:55:18:  * Vertex texture fetch: yes
+16:55:18:  * Number of world matrices: 0
+16:55:18:  * Number of texture units: 8
+16:55:18:  * Stencil buffer depth: 8
+16:55:18:  * Number of vertex blend matrices: 0
+16:55:18:    - Max vertex textures: 4
+16:55:18:    - Vertex textures shared: no
+16:55:18:  * Render to Vertex Buffer : no
+16:55:18:  * DirectX per stage constants: yes
+16:55:18: ***************************************
+16:55:18: *** D3D9 : Subsystem Initialised OK ***
+16:55:18: ***************************************
+16:55:18: DefaultWorkQueue('Root') initialising on thread 25d8.
+16:55:18: DefaultWorkQueue('Root')::WorkerFunc - thread 10f4 starting.
+16:55:18: DefaultWorkQueue('Root')::WorkerFunc - thread 259c starting.
+16:55:18: DefaultWorkQueue('Root')::WorkerFunc - thread 1e7c starting.
+16:55:18: DefaultWorkQueue('Root')::WorkerFunc - thread 1d28 starting.
+16:55:18: DefaultWorkQueue('Root')::WorkerFunc - thread 1dfc starting.
+16:55:18: DefaultWorkQueue('Root')::WorkerFunc - thread 22a8 starting.
+16:55:18: DefaultWorkQueue('Root')::WorkerFunc - thread 45c starting.
+16:55:18: DefaultWorkQueue('Root')::WorkerFunc - thread 628 starting.
+16:55:18: Particle Renderer Type 'billboard' registered
+16:55:18: SceneManagerFactory for type 'OctreeSceneManager' registered.
+16:55:18: Added resource location '../media/materials/programs' of type 'FileSystem' to resource group 'General'
+16:55:18: Added resource location '../media/materials/scripts' of type 'FileSystem' to resource group 'General'
+16:55:18: Added resource location '../media/materials/textures' of type 'FileSystem' to resource group 'General'
+16:55:18: Added resource location '../media/materials/textures/nvidia' of type 'FileSystem' to resource group 'General'
+16:55:18: Added resource location '../media/models' of type 'FileSystem' to resource group 'General'
+16:55:18: Creating resource group GUI
+16:55:18: Added resource location './resource' of type 'FileSystem' to resource group 'GUI'
+16:55:18: Parsing scripts for resource group Autodetect
+16:55:18: Finished parsing scripts for resource group Autodetect
+16:55:18: Creating resources for group Autodetect
+16:55:18: All done
+16:55:18: Parsing scripts for resource group GUI
+16:55:18: Parsing script sample.fontdef
+16:55:18: Finished parsing scripts for resource group GUI
+16:55:18: Creating resources for group GUI
+16:55:18: All done
+16:55:18: Parsing scripts for resource group General
+16:55:18: Finished parsing scripts for resource group General
+16:55:18: Creating resources for group General
+16:55:18: All done
+16:55:18: Parsing scripts for resource group Internal
+16:55:18: Finished parsing scripts for resource group Internal
+16:55:18: Creating resources for group Internal
+16:55:18: All done
+16:55:18: *** Initializing (createFrameListener) ***
+16:55:18: Texture: _cegui_ogre_0: Loading 1 faces(PF_A8B8G8R8,256x256x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+16:55:19: Texture: _cegui_ogre_3: Loading 1 faces(PF_A8B8G8R8,256x256x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.

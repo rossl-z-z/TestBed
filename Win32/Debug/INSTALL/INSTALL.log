@@ -1,0 +1,30 @@
+﻿Build started 2/26/2013 6:40:18 AM.
+     1>Project "D:\dev\TestBed\INSTALL.vcxproj" on node 2 (Build target(s)).
+     1>PostBuildEvent:
+         setlocal
+         "C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -DBUILD_TYPE=Debug -P cmake_install.cmake
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+         -- Install configuration: "Debug"
+         -- Up-to-date: D:/dev/TestBed/dist/bin/OgreMain_d.dll
+         -- Up-to-date: D:/dev/TestBed/dist/bin/RenderSystem_Direct3D9_d.dll
+         -- Up-to-date: D:/dev/TestBed/dist/bin/RenderSystem_GL_d.dll
+         -- Up-to-date: D:/dev/TestBed/dist/bin/libboost_date_time-vc110-mt-gd-1_52.lib
+         -- Up-to-date: D:/dev/TestBed/dist/bin/libboost_thread-vc110-mt-gd-1_52.lib
+         -- Up-to-date: D:/dev/TestBed/dist/bin/libboost_system-vc110-mt-gd-1_52.lib
+         -- Up-to-date: D:/dev/TestBed/dist/bin/CEGUIBase_d.dll
+         -- Up-to-date: D:/dev/TestBed/dist/bin/CEGUIOgreRenderer_d.dll
+         -- Up-to-date: D:/dev/TestBed/dist/bin/CEGUIExpatParser_d.dll
+         -- Up-to-date: D:/dev/TestBed/dist/bin/CEGUIFalagardWRBase_d.dll
+         -- Up-to-date: D:/dev/TestBed/dist/bin/Plugin_OctreeSceneManager_d.dll
+     1>Done Building Project "D:\dev\TestBed\INSTALL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.35

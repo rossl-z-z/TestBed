@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<GUILayout>
+  <Window Type="TaharezLook/FrameWindow" Name="Main">
+    <Property Name="UnifiedAreaRect" Value="{{0.0,0},{0.0,0},{1.0,0},{1.0,0}}" />
+    <Property Name="FrameEnabled" Value="false" />
+    <Property Name="TitlebarEnabled" Value="false" />
+    <Property Name="CloseButtonEnabled" Value="False" />
+
+    <Window Type="TaharezLook/Editbox" Name="KeyboardText">
+      <Property Name="Font" Value="BlueHighway-10" />
+      <Property Name="Text" Value="Key Test Editbox" />
+      <Property Name="TextColours" Value="tl:FF4FF06F tr:FF4FF06F bl:FF4FF06F br:FF4FF06F" />
+      <Property Name="FrameEnabled" Value="False" />
+      <Property Name="HorzFormatting" Value="HorzCentred" />
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedAreaRect" Value="{{0,50},{0,50},{0,230},{0,80}}" />
+      <Property Name="BackgroundEnabled" Value="False" />
+    </Window>
+
+    <Window Type="TaharezLook/Button" Name="cmdQuit" >
+      <Property Name="Font" Value="BlueHighway-12" />
+      <Property Name="Text" Value="Exit Demo" />
+      <Property Name="InheritsAlpha" Value="False" />
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedAreaRect" Value="{{-0.0526254,0},{-0.063219,0},{0.277375,0},{-4.06504e-005,0}}" />
+      <Property Name="VerticalAlignment" Value="Bottom" />
+      <Property Name="HorizontalAlignment" Value="Centre" />
+    </Window>
+
+  </Window>
+</GUILayout>
